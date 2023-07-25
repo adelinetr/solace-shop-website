@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
+.categories-section{
+    margin-top: 5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 320px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.categories-h3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+    img{
+        width: 320px;
+        height: 200px;
+        object-fit: cover;
+        transition: 0.4s ease-in-out;
+        cursor: pointer;
+
+        &:hover{
+            transition: 0.4s ease-in-out;
+            filter: brightness(0.5);
+            content: 'Learn More';        }
+    }
+
+    p{
+        margin-top: 0 !important;
+        margin-right: auto;
+        margin-bottom: 3em;
+        font-family: 'Lato Regular';
+    }
+}
+
+@media screen and (min-width:800px) {
+    .categories-section{
+        margin-top: 5em;
+        margin-left: 1em;
+        margin-right: 1em;
+        object-fit: cover;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+
+        .categories-h3{
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    }
+    .categories-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3em;
+    }
+
+    .category-name{
+            display: inherit;
+            justify-content: center;
+            align-items: center;
+            width: 350px;
+            object-fit: cover;
+    }
+}
+
+@media screen and (min-width:1300px) {
+
+}

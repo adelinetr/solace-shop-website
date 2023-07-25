@@ -1,0 +1,36 @@
+.dark ul a {
+  color: #414141 !important;
+}
+
+.logo svg path {
+  fill: #414141;
+}
+
+.contacts-img {
+  filter: brightness(0.8);
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 85vh;
+  margin-top: 6em;
+}
+
+.text-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.text-contacts a {
+  text-decoration: none;
+  color: #727272;
+  transition: 0.3s ease-in-out;
+}
+.text-contacts a:hover {
+  color: #414141;
+  transition: 0.3s ease-in-out;
+}
+.text-contacts p {
+  width: 65%;
+}/*# sourceMappingURL=Contacts.css.map */

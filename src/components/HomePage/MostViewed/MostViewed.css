@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap");
+.most-viewed-section {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5em;
+}
+.most-viewed-section .h3-items {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.2em;
+}
+
+.secondary-item {
+  display: none;
+}
+
+.image-container {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s ease-in-out;
+}
+.image-container .next {
+  padding-left: 1em;
+}
+
+.product-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1em;
+}
+.product-container .image-container img {
+  width: 245px;
+  height: 340px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.next {
+  cursor: pointer;
+}
+
+.pricing-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 245px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: default;
+}
+.pricing-name .price {
+  font-size: 0.9rem;
+}
+.pricing-name .item-name {
+  justify-content: center;
+  align-items: center;
+}
+.pricing-name .item-name .item {
+  font-family: "Lato Regular";
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+}
+
+.description-container {
+  width: 245px;
+}
+
+.line {
+  position: relative;
+  top: -30px;
+}
+
+.see-more-button {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.see-more-button button {
+  font-family: "Lato Regular";
+  background: none;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  top: -27px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+  .product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8em;
+  }
+  .next {
+    display: none;
+  }
+  .most-viewed-section {
+    justify-content: center;
+    align-items: center;
+  }
+  .image-container img {
+    width: 205px !important;
+    height: 290px !important;
+  }
+  .description-container {
+    width: 205px !important;
+  }
+  .pricing-name {
+    width: 205px !important;
+  }
+  .line {
+    position: relative;
+    top: -30px;
+  }
+}/*# sourceMappingURL=MostViewed.css.map */

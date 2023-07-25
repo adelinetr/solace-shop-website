@@ -1,0 +1,46 @@
+.our-story-section{
+    display: flex;
+    margin: 1em;
+}
+.img-story{
+    width: 90%;
+    height: auto;
+    margin-top: 6em;
+    margin-left: 2em;
+}
+.right-column{
+    margin-top: 10em;
+}
+.story-h3{
+    text-align: center;
+}
+.p-story{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto ;
+}
+.our-clothing{
+    margin-top: 8em;
+    display: flex;
+}
+.photos-row {
+    display: flex;
+    flex-direction: column;
+    img{
+        width: 90%;
+        margin-bottom: 2em;
+        height: auto;
+    }
+}
+.first-column{
+    margin-top: 3em;
+    height: 95vh;
+    h3{
+        text-align: center;
+    }
+    p{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

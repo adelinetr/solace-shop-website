@@ -1,0 +1,85 @@
+@import url(../../../App.css);
+@import url('https://fonts.googleapis.com/css2?family=Jomolhari&display=swap');
+
+section{
+    overflow: auto;
+    height: 100vh;
+    background: url(./images/mobile-img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: var(--main-font);
+
+    .hero-heading{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4.5em;
+        text-align: center;
+        width: 90%;
+        font-size: 1.5rem;
+        color: #f1f1f1;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    .hero-p{
+        line-height: 1.5;
+        font-size: 0.9rem;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f1f1f1;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+    .hero-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .explore-button{
+            background: none;
+            border: 1px solid #f1f1f1;
+            color: #f1f1f1;
+            padding: 6px 50px;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+
+            &:hover{
+                transition: 0.3s ease-in-out;
+                background-color: black;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:600px) {
+    section{
+        background-image: url(./images/semi-img1.png);
+    }  
+}
+
+@media screen and (min-width:800px) {
+    section{
+        background-image: url(./images/bg-image.png);
+    }
+    .hero-heading{
+        margin-top: 7em !important;
+        font-size: 2rem !important;
+    }
+    .hero-p{
+        width: 40% !important;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    section{
+        background-image: url(./images/wide-screen2.png);
+        background-position: 30%;
+    }
+    .explore-button{
+        font-size: 1rem !important;
+    }
+}
