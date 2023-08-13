@@ -12,6 +12,21 @@
   transition: 0.5s ease-in-out;
 }
 
+.white-links li a {
+  color: #e3e3e3;
+}
+
+.black-links li a {
+  color: #212121 !important;
+}
+
+.black-links {
+  color: #343333 !important;
+}
+.black-links svg path {
+  fill: #313131 !important;
+}
+
 li.black a {
   color: #212121;
 }
@@ -24,6 +39,17 @@ li.white a {
   transition: 0.5s ease-in-out;
   background-color: #fff !important;
   width: 100%;
+  color: #212121;
+  fill: #212121;
+}
+.scroll .mobile-logo svg path {
+  fill: #343333 !important;
+}
+.scroll .menu-button {
+  color: #343333;
+}
+.scroll .logo svg path {
+  fill: #343333 !important;
 }
 .scroll a {
   color: #000 !important;
@@ -84,6 +110,11 @@ li.white a {
   transition: transform 0.3s;
 }
 
+button {
+  background: none;
+  border: none;
+}
+
 .logo {
   display: none;
 }
@@ -94,6 +125,14 @@ li.white a {
   align-items: center;
 }
 
+.toggle-menu .open {
+  transform: translate(0%) !important;
+}
+
+.nav-links.open {
+  transform: translateX(0%) !important;
+}
+
 .nav-links {
   top: 0 !important;
   position: fixed;
@@ -102,22 +141,22 @@ li.white a {
   background: #fafafa;
   z-index: 999;
   height: 100vh;
+  color: black;
   width: 100%;
   transform: translateX(100%);
 }
 .nav-links ul {
   list-style: none;
   padding: 0;
-  margin-top: 15em;
 }
 .nav-links ul a {
-  margin-bottom: 3em;
   padding-left: 2em !important;
   padding: 1em;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1px;
   display: block;
+  color: #212121;
   width: 100%;
   font-size: 0.8rem;
   transition: all ease 0.4s;
@@ -125,6 +164,9 @@ li.white a {
 }
 .nav-links ul a:hover {
   transition: all ease 0.4s;
+}
+.nav-links .mobile-link-logo {
+  display: none;
 }
 .nav-links .close {
   cursor: pointer;
@@ -140,7 +182,7 @@ li.white a {
   margin-right: 0.8em !important;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   header {
     top: 0;
     z-index: 999;
@@ -149,16 +191,22 @@ li.white a {
   .mobile-logo {
     display: none;
   }
+  .mobile-link-logo {
+    display: unset !important;
+  }
   .logo {
     display: block;
     margin-left: 3em;
     margin-right: 1em;
   }
   .logo svg path {
-    fill: #e3e3e3;
+    fill: #e3e3e3 !important;
   }
   .nav-links {
     background: none !important;
+  }
+  .black-links svg path {
+    fill: #313131 !important;
   }
   .nav-link {
     position: relative;

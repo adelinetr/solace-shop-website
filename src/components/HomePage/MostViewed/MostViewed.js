@@ -19,15 +19,15 @@ export default function MostViewed() {
                     />
                     <ProductProps
                         image={Item02}
-                        itemName='Silver Earrings'
-                        price='45€'
+                        itemName='Black bag'
+                        price='59€'
                         className='secondary-item'
                         nextButton='main-next'
                     />
                     <ProductProps
                         image={Item03}
-                        itemName='Silver Earrings'
-                        price='45€'
+                        itemName='Gold-plated Earrings'
+                        price='65€'
                         className='secondary-item'
                         nextButton='last-next'
                     />

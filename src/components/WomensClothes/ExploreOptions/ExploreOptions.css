@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap");
 .text {
-  margin: 1em;
   cursor: default;
 }
 .text h4 {
   font-size: 1.4rem;
   text-align: center;
   color: #444;
+}
+
+a {
+  text-decoration: none;
+  color: #2b2b2b;
 }
 
 .explore-section {
@@ -42,12 +46,13 @@
      object-fit: cover;
   transition: 0.3s ease-in-out;
   padding: 0.4em;
-  border: 1px solid #b9b9b9;
+  border: 1px solid #d3d3d3;
 }
 .img-card:hover {
   cursor: pointer;
   transition: 0.3s ease-in-out;
-  filter: brightness(0.5);
+  filter: brightness(0.85);
+  border: 1px solid #b5ab84;
 }
 
 .text-item-card {
@@ -93,31 +98,6 @@
 .active-page {
   background-color: #dcdcdc;
   border-radius: 30px;
-}
-
-.image-card {
-  position: relative;
-}
-
-.hover-text {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 40%;
-  transform: translate(-80%, -40%);
-  color: #fff;
-  padding: 10px 15px;
-  font-family: "Lato";
-  text-transform: uppercase;
-  font-size: 16px;
-  letter-spacing: 1px;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.image-card:hover .hover-text {
-  opacity: 0.9;
 }
 
 @media screen and (min-width: 450px) {

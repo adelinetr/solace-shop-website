@@ -1,20 +1,16 @@
 .newsletter-section{
-    background-color: #D9D9D9;
+    background-color: #f1f1f1 !important;
     width: 100%;
-    height: 50vh;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    align-items: center;
+    height: 97vh;
 
-    h4{
+    .newsletter-h4{
+        margin-top: 3em !important;
         margin-left: auto;
         margin-right: auto;
-        font-size: 2rem;
-        width: 90%;
+        font-size: 1.5rem;
         text-align: center;
-        padding-top: 3em;
-        line-height: 1.4;
+        margin: 0;
+        text-transform: capitalize;
     }
 }
 
@@ -27,35 +23,158 @@
     .input-email{
         justify-content: center;
         align-items: center;
-        width: 240px;
-        height: 40px;
+        width: 200px ;
+        height: 30px;
         margin-right: 0.5em;
     }
     .send-button{
         object-fit: cover;
         width: 80px;
-        height: 44px;
+        height: 36px !important;
+        background-color: #f5f5f5;;
         border: 1px solid #444;
+        border-radius: 3px;
         text-transform: uppercase;
         letter-spacing: 1px;
+        color: #191919;
         transition: 0.3s ease-in-out;
         
         &:hover{
             cursor: pointer;
-            background-color: #444;
             color: #f1f1f1;
+            background-color: #080808 !important;
             transition: 0.3s ease-in-out;
         }
     }
 }
 
-@media screen and(min-width: 860px) {
-    .newsletter-section {
-        height: 60vh;
-    }
-    .newsletter-box{
-        .input-email{
-            width: 420px;
+    
+    .left-newsletter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 2em;
+
+        .newsletter-p{
+            color: #d6a566;
+            font-size: 1.1rem;
+            margin-top: 0 !important;
         }
     }
+    .image-newsletter-container{
+        width: 100vw;
+        height: 60vh;
+        object-fit: cover;
+        overflow: hidden;
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+    }
+    .circle-img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: scale(1.5);
+    }
+    
+
+
+@media screen and (min-width: 800px) {
+    .newsletter-section{
+        background-color: #f1f1f1 !important;
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        overflow: hidden;
+    
+        .newsletter-h4{
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 1.6rem;
+            width: 90%;
+            text-align: center;
+            line-height: 1.4;
+            margin: 0;
+        }
+    }
+    
+    .newsletter-box{
+        margin: 1em;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    
+        .input-email{
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 30px;
+            margin-right: 0.5em;
+        }
+        .send-button{
+            object-fit: cover;
+            width: 80px;
+            height: 36px !important;
+            background-color: #f5f5f5;;
+            border: 1px solid #444;
+            border-radius: 3px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #191919;
+            transition: 0.3s ease-in-out;
+            
+            &:hover{
+                cursor: pointer;
+                background-color: #363636 !important;
+                transition: 0.3s ease-in-out;
+            }
+        }
+    }
+    
+        .newsletter-section{
+            justify-content: space-between !important;
+        }
+        
+        .newsletter-box{
+            .input-email{
+                width: 320px !important;
+                height: 30px !important;
+            }
+        }
+        .left-newsletter{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-left: 4em;
+            margin-bottom: 2em;
+            .newsletter-h4{
+                text-transform: capitalize;
+            }
+    
+            .newsletter-p{
+                color: #d6a566;
+                font-size: 1.1rem;
+                margin-top: 0 !important;
+            }
+        }
+        .image-newsletter-container{
+            width: 470px;
+            height: 60vh;
+            object-fit: cover;
+            margin-left: auto;
+            overflow: hidden;
+            border-top-right-radius: 0;
+            border-bottom-left-radius: 50%;
+            border-top-left-radius: 50%;
+        }
+        .circle-img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transform: scale(1.5);
+        }
+        
+    
 }
+

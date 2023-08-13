@@ -22,6 +22,9 @@
   align-items: center;
   height: 100vh;
 }
+.text-contacts h3 {
+  font-size: 1.4rem;
+}
 .text-contacts a {
   text-decoration: none;
   color: #727272;
@@ -32,5 +35,5 @@
   transition: 0.3s ease-in-out;
 }
 .text-contacts p {
-  width: 65%;
+  width: 85%;
 }/*# sourceMappingURL=Contacts.css.map */

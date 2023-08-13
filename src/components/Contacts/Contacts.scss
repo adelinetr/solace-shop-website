@@ -21,6 +21,10 @@
     align-items: center;
     height: 100vh;
 
+    h3{
+        font-size: 1.4rem;
+    }
+
         a{
             text-decoration: none;
             color: #727272;
@@ -32,6 +36,6 @@
             }
         }
     p{
-        width: 65%;
+        width: 85%;
     }
 }

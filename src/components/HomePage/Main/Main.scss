@@ -1,5 +1,6 @@
 @import url(../../../App.css);
 @import url('https://fonts.googleapis.com/css2?family=Jomolhari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400&family=Lato:wght@100;300;400&display=swap');
 
 section{
     overflow: auto;
@@ -11,6 +12,7 @@ section{
     font-family: var(--main-font);
 
     .hero-heading{
+        font-family: 'Jomolhari';
         margin-left: auto;
         margin-right: auto;
         margin-top: 4.5em;
@@ -40,6 +42,7 @@ section{
             background: none;
             border: 1px solid #f1f1f1;
             color: #f1f1f1;
+            border-radius: 12px;
             padding: 6px 50px;
             font-size: 1.1rem;
             text-transform: uppercase;

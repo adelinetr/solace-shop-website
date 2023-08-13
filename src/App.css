@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Jomolhari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400&family=Lato:wght@100;300;400&display=swap');
 
 
 *{
-    font-family: 'Jomolhari';
-    font-weight: 400;
+    font-family: 'Kanit';
+    font-weight: 300;
 }

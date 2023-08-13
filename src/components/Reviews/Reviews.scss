@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomolhari&family=Lato:wght@100;300;400&display=swap');
+ 
+.reviews-h3{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    display: table;
+        font-size: 1.5rem;
+        padding: 0.3em 2em;
+    }
+    .review-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+     
+    .card-review{
+        width: 250px;
+        object-fit: cover;
+        border-radius: 12px;
+        height: 260px;
+        border: 1px solid #444;
+        margin-bottom: 5em;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+
+        .img-review img{
+            width: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            height: auto;
+        }
+        .clients-name{
+            font-family: 'Jomolhari 400';
+            font-size: 1.3rem;
+        }
+        .review-text{
+            font-size: 0.8rem;
+            text-align: center;
+        }
+    }
+    .next-dots{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-bottom: 5em;
+    }
+
+    .dot {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border: 1px solid #444;
+        border-radius: 50%;
+        margin: 0 5px;
+        cursor: pointer;
+        margin-left: 2em;
+        transition: background-color 0.3s;
+
+        &:hover{
+            background-color: #444;
+            transition: 0.4s ease-in-out;
+        }
+      }
+      
+      .active-dot {
+        background-color: #444 !important;
+      }
+
+
+@media  screen and (min-width: 700px) {
+
+        .review-card{
+            flex-direction: row;
+            gap: 6em;
+        }
+    
+        .card-review{
+            margin-top: 1em;
+            width: 250px;
+            object-fit: cover;
+            border-radius: 12px;
+            height: 260px;
+            border: 1px solid #444;
+            margin-bottom: 5em;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            padding: 1em;
+        }
+   
+ 
+}
