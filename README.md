@@ -4,8 +4,9 @@ Here's the React made website for e-commerce clothing shop named 'Solace'. It's 
 
 ## Purpose of the project:
 - Create a website using my UI/UX knowledge and understanding of design principles
-- Create a brand website from zero: concept, logo, moodboard, choice of images that best represent it, wireframe and the website itself 
-- Experiment with new functions (that I haven't used before) to make website more interactive 
+- Create a brand website from zero: concept, logo, moodboard, choice of images that best represent it, wireframe and the website itself
+- Introduce myself to a full project creation in React
+- Experiment with various functions to make website more interactive 
 - Learn more about how to use hooks of React more effectively
 - Practice React Router to switch between pages
 
@@ -20,7 +21,13 @@ Shorthly: The visual mood of this brand was meant to be focused around minimalis
 ## Wireframe of the website
 - Wireframe helps to see an approximate planning of the content and its layout. Some minor changes I added while creating the website. All of it is neccecary for having a consistent visual hierarchy.
   
-![wireframe01](https://github.com/adelinetr/solace-shop-website/assets/119743518/58c924a1-8604-4587-a41a-b0fdceeaefc4)
+![wireframe01](https://github.com/adelinetr/solace-shop-website/assets/119743518/14cd103a-5953-43c0-b2fd-b59d9fb415bd)
+![wireframe+mobile](https://github.com/adelinetr/solace-shop-website/assets/119743518/6dc4252e-2c24-4778-8889-d94ab22e9f36)
+
+
+
+
+
 
 ## Functions I've used in React
 
@@ -36,3 +43,14 @@ Shorthly: The visual mood of this brand was meant to be focused around minimalis
 - With each page items and pricings are being updated and each of the item has its own id.
   
 ![ezgif-4-e2b5009983](https://github.com/adelinetr/solace-shop-website/assets/119743518/e63f055b-38a3-4b5b-a1b3-e5c616f0f984)
+
+- Rewiews section updates by clicking on dots
+  
+  ![reviews](https://github.com/adelinetr/solace-shop-website/assets/119743518/ee52d2db-8fda-459e-8bd5-e8020f811a53)
+
+## Styling
+
+![onhover1](https://github.com/adelinetr/solace-shop-website/assets/119743518/b0324d0f-5479-48e4-bf9a-ae6f1c6eaffc)
+![onhover2](https://github.com/adelinetr/solace-shop-website/assets/119743518/3c574694-9813-4a6d-990d-58f1ebb1463b)
+
+
