@@ -1,5 +1,13 @@
 # E-commerce Clothing Website 
 
+See this website on Netlify: https://solace-shop.netlify.app/
+
+![solace-1](https://github.com/adelinetr/solace-shop-website/assets/119743518/fdbbe24c-b0d6-40e9-9069-44b478e4c268)
+![solace-3](https://github.com/adelinetr/solace-shop-website/assets/119743518/99da62b0-bcb2-4c9c-bb1c-2558d91dfcca)
+
+![solace-2](https://github.com/adelinetr/solace-shop-website/assets/119743518/ec4ef4ca-bd4a-46ca-8f52-a08daaee4ede)
+
+
 Here's the React made website for e-commerce clothing shop named 'Solace'. It's one of the last and most progressive projects that I've made, since I included more functions to make this website more visually appealing and functional. 
 
 ## Purpose of the project:
@@ -23,8 +31,6 @@ Shorthly: The visual mood of this brand was meant to be focused around minimalis
   
 ![wireframe01](https://github.com/adelinetr/solace-shop-website/assets/119743518/14cd103a-5953-43c0-b2fd-b59d9fb415bd)
 ![wireframe+mobile](https://github.com/adelinetr/solace-shop-website/assets/119743518/6dc4252e-2c24-4778-8889-d94ab22e9f36)
-
-
 
 
 
