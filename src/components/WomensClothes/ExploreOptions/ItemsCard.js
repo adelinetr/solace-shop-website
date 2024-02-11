@@ -1,12 +1,7 @@
-
-
-export default function ItemsCard (props) {
-
-    return (
-        <>
-           <div
-        className={`item-card ${props.className}`}
-      >
+export default function ItemsCard(props) {
+  return (
+    <>
+      <div className={`item-card ${props.className}`}>
         <div className="image-card">
           <img className="img-card" src={props.image} alt="" />
         </div>
@@ -16,6 +11,6 @@ export default function ItemsCard (props) {
           <p>{props.price}</p>
         </div>
       </div>
-        </>
-    )
+    </>
+  );
 }

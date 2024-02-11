@@ -1,11 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jomolhari&display=swap");
 .text {
   cursor: default;
 }
 .text h4 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   text-align: center;
   color: #444;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 a {
@@ -18,19 +20,29 @@ a {
   align-items: center !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
 }
 
 .explore-options {
   justify-content: center;
   align-items: center;
-  margin-left: auto;
+  margin: 1em;
   display: flex;
-  margin-right: auto;
+  flex-direction: column;
+}
+
+.search-bar {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.search-bar #outlined-basic {
+  width: 250px;
 }
 
 .our-options {
+  margin-left: auto !important;
+  margin-right: auto !important;
   margin-top: 5em;
   display: grid;
   justify-content: center;
@@ -40,8 +52,8 @@ a {
 }
 
 .img-card {
-  width: 155px;
-  height: 210px;
+  width: 140px;
+  height: 190px;
   -o-object-fit: cover;
      object-fit: cover;
   transition: 0.3s ease-in-out;
@@ -150,13 +162,15 @@ a {
     text-align: center;
   }
   .our-options {
-    margin-left: 7em;
-    gap: 1em;
+    gap: 3em;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
   }
   .img-card {
-    margin-right: 5EM;
-    width: 185px;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 175px;
     height: 240px;
   }
   .text-item-card {

@@ -62,7 +62,7 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    width: 245px;
+    width: 240px;
     object-fit: cover;
     cursor: default;
 
@@ -74,15 +74,13 @@
         justify-content: center;
         align-items: center;
         .item{
-            font-family: 'Lato Regular';
-            letter-spacing: 1px;
-            font-size: 0.75rem;
+            font-size: 0.8rem;
             padding-bottom: 0.7em !important;
         }
     }
 }
 .description-container{
-    width: 245px;
+    width: 240px;
 }
 .line{
     position: relative;
@@ -94,7 +92,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 8em;
+        gap: 3em;
     }    
     .next{
         display: none;
@@ -104,14 +102,14 @@
         align-items: center;
     }
     .image-container img{
-        width: 205px !important;
-        height: 290px !important;
+        width: 195px !important;
+        height: 280px !important;
     }
     .description-container{
         width: 205px !important;
     }
     .pricing-name{
-        width: 215px !important;
+        width: 210px !important;
     }
     
 }

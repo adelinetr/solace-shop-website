@@ -18,6 +18,7 @@
 .our-values-section .values-p {
   width: 90%;
   font-size: 0.9rem;
+  font-weight: 200;
   text-align: center;
   letter-spacing: 0.3px;
   cursor: default;
@@ -27,5 +28,14 @@
 @media screen and (min-width: 800px) {
   .values-p {
     width: 55% !important;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .values-h3 {
+    font-size: 1.8em !important;
+  }
+  .values-p {
+    width: 35% !important;
+    font-size: 1rem !important;
   }
 }/*# sourceMappingURL=OurValues.css.map */

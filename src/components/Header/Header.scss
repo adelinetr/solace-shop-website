@@ -3,7 +3,7 @@
     padding-right: 1em;
     padding-top: 0.7em;
     position: fixed;
-    height: 80px;
+    height: 60px;
     top: 0 ;
     left: 0;
     z-index: 1;
@@ -15,21 +15,94 @@
 .white-links li a{ 
     color: #e3e3e3 ;
 }
+
 .black-links li a{
     color: #212121 !important;
 }
-.black-links{
-    color: #343333 !important;
-    svg path{
+.menu-button{
+    svg {
+    path{
         fill: #313131 !important;
+        color: #212121 !important;
     }
 }
+}
+
+.black-menu {
+    background-color: black;
+  }
 li.black a{
     color: #212121 ;
 }
 li.white a{
     color: #e7e7e7 ;
 }
+
+  
+
+
+
+.navbar{
+    transition: 0.5s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scroll .white-links {
+    .nav-link{
+        position: relative;
+
+    &::before{
+                content: '';
+                position: absolute;
+                bottom: -20%;
+                width: 30%;
+                height: 1px;
+                background-color: #212121;
+                transform: scale(0);
+                transform-origin: left;
+                transition: transform 0.3s;
+            }
+            &:hover::before{
+                transform: scale(1);
+            }
+}
+}
+
+.black-links{
+    .nav-link{
+        position: relative;
+
+    &::before{
+                content: '';
+                position: absolute;
+                bottom: -20%;
+                width: 30%;
+                height: 1px;
+                background-color: #212121;
+                transform: scale(0);
+                transform-origin: left;
+                transition: transform 0.3s;
+            }
+            &:hover::before{
+                transform: scale(1);
+            }
+    }
+
+    .mobile-logo{
+        svg path{
+            fill: #212121 !important;
+        }
+    }
+    .menu-button{
+        svg path{
+            stroke: #212121 !important;
+        }
+
+    }
+}
+
 .scroll{
     transition: 0.5s ease-in-out;
     background-color: #fff !important;
@@ -55,66 +128,9 @@ li.white a{
     a{
         color:  #000 !important;
     }
-
-    .nav-link{
-        position: relative;
-
-    &::before{
-                content: '';
-                position: absolute;
-                bottom: -20%;
-                width: 20%;
-                height: 1.5px;
-                background-color: #212121;
-                transform: scale(0);
-                transform-origin: left;
-                transition: transform 0.3s;
-            }
-            &:hover::before{
-                transform: scale(1);
-            }
-    }
-
-    .active{
-        position: relative;
-    
-        &::after{
-            content: '';
-            position: absolute;
-            bottom: -20%;
-            width: 20%;
-            height: 1.5px;
-            background-color: #212121;
-            transform: scale(1);
-            left: 18%;
-            transform-origin: left;
-            transition: transform 0.3s;
-        }
-    }
-}
-.navbar{
-    transition: 0.5s ease-in-out;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.active{
-    position: relative;
 
-    &::after{
-        content: '';
-        position: absolute;
-        bottom: -20%;
-        width: 20%;
-        height: 1.5px;
-        background-color: #e7e7e7;
-        transform: scale(1);
-        left: 18%;
-        transform-origin: left;
-        transition: transform 0.3s;
-    }
-}
 button{
     background: none;
     border: none;
@@ -160,7 +176,6 @@ button{
             letter-spacing: 1px;
             display: block;
             color: #212121;
-            width: 100%;
             font-size: 0.8rem;
             transition: all ease 0.4s;
             font-family: 'Poppins Medium';
@@ -192,6 +207,33 @@ button{
 
 @media screen and (min-width:900px) {
 
+    .scroll{
+        transition: 0.5s ease-in-out;
+        background-color: #fff !important;
+        width: 100%;
+        color: #212121;
+        fill: #212121;
+
+        .mobile-logo{
+            svg path{
+                fill: #343333 !important;
+            }
+        }
+    
+        .menu-button{
+            color: #343333;
+        }
+        .logo{
+            svg path{
+                fill: #343333 !important;
+            }
+        }
+    
+        a{
+            color:  #000 !important;
+        }
+    }
+
         header{
             top: 0;
             z-index: 999;
@@ -205,7 +247,7 @@ button{
         }
         .logo{
             display: block;
-            margin-left: 3em;
+            margin-left: 0em;
             margin-right: 1em;
 
             svg path{
@@ -230,8 +272,8 @@ button{
                 content: '';
                 position: absolute;
                 bottom: -20%;
-                width: 20%;
-                height: 1.5px;
+                width: 30%;
+                height: 1px;
                 background-color: #f0f0f0;
                 transform: scale(0);
                 transform-origin: left;
@@ -240,6 +282,7 @@ button{
             &:hover::before{
                 transform: scale(1);
             }
+
         }
         .menu-button{
             display: none;
@@ -252,11 +295,11 @@ button{
             right: 0;
             width: 100%;
             box-sizing: border-box;
-            height: 80px !important;
-            display: flex;
+            height: 60px !important;
+            display: grid !important;
             transform: translateX(0) !important;
-            justify-content: center;
-            align-items: center;
+            justify-content: center !important;
+            align-items: center !important;
             background: transparent !important;
             z-index: 999;
 
@@ -270,15 +313,18 @@ button{
                 align-items: center;
                 margin: 0 !important;
                 margin-right: auto !important;
+                margin-left: auto !important;
+                gap: 3em !important;
     
                 a{
                     color: #f1f1f1 !important;
                     margin: 0 !important;
                     padding: 0 !important;
-                    margin-left: 1em !important;
-                    margin-right: 1.5em !important;
-                    font-size: 0.7rem;
+                    margin-right:  auto !important;
+                    margin-left:  auto !important;
+                    font-size: 0.7rem !important;
                     padding-left: 0 !important;
+                    
                 }
             }
         }

@@ -1,6 +1,6 @@
-import React from 'react';
-import ItemsCard from './ItemsCard';
-import { Link } from 'react-router-dom';
+import React from "react";
+import ItemsCard from "./ItemsCard";
+import { Link } from "react-router-dom";
 
 export default function ItemsProduct({ activePage, itemsData }) {
   const itemsPerPage = 6;

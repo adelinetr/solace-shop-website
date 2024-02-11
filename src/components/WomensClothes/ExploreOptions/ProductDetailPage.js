@@ -1,21 +1,3 @@
-import Item01 from './images/necklace01.png'
-import Item02 from './images/shirt02.png'
-import Item03 from './images/shirt03.png'
-import Item04 from './images/heels04.png'
-import Item05 from './images/necklace05.png'
-import Item06 from './images/bag06.png'
-import Item07 from './images/coat07.png'
-import Item08 from './images/shoes08.png'
-import Item09 from './images/pants09.png'
-import Item10 from './images/rings10.png'
-import Item11 from './images/bag11.png'
-import Item12 from './images/necklace12.png'
-import Item13 from './images/dress13.png'
-import Item14 from './images/bag14.png'
-import Item15 from './images/sandals15.png'
-import Item16 from './images/hat16.png'
-import Item17 from './images/dress17.png'
-import Item18 from './images/dress18.png'
 import { useParams } from 'react-router-dom';
 
 export default function ProductDetailPage(props) {
